@@ -12,7 +12,7 @@ Usage
 ------
 
 ```
-$ docker run -d -P bylexus/apache-php53
+$ docker run -d -P magnabb/apache-php53
 ```
 
 With all the options:
@@ -41,11 +41,22 @@ Installed packages
 * apache2
 * php5
 * php5-cli
-* libapache2-mod-php5
 * php5-gd
 * php5-ldap
 * php5-mysql
 * php5-pgsql
+* php5-imagick
+* php5-intl
+* php5-xdebug
+* php5-mcrypt
+* php5-curl
+* libapache2-mod-php5
+* composer (with https://github.com/hirak/prestissimo)
+* git
+* curl
+* nano
+* htop
+* mc
 
 Configurations
 ----------------
