@@ -6,6 +6,7 @@ VOLUME ["/var/www"]
 RUN apt-get update && \
     apt-get install -y \
       git \
+      iputils-ping \
       apache2 \
       php5 \
       php5-cli \
